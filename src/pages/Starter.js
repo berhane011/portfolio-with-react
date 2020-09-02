@@ -1,11 +1,11 @@
 import React from "react";
 import Hero from "../components/Hero";
-
+import bg2 from "../asset/image/bg2.jpg"
 
 function Starter() {
   return (
     <div>
-      <Hero backgroundImage="https://img.freepik.com/free-vector/abstract-technology-particle-background_52683-25766.jpg?size=626&ext=jpg&ga=GA1.2.1629007400.1595980800">
+      <Hero backgroundImage={bg2}>
         <h1>About</h1>
         <h3 className = "container h4">
           

@@ -1,11 +1,12 @@
 import React from "react";
 import Hero from "../components/Hero";
 import Link from "../components/Link";
+import c1 from "../asset/image/c1.jpg"
 
 function About() {
   return (
     <div>
-      <Hero backgroundImage="/asset/image/c1.jpg">
+      <Hero backgroundImage={c1}>
         <h1>About</h1>
         <h3 className="container h4">
           I am Berhane from Oakland, CA, a motivated junior web developer,
